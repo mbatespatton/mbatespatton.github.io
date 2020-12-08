@@ -1,0 +1,118 @@
+a, a:visited {
+    text-decoration-line: none;
+    color: black;
+}
+a:hover {
+    color: grey;
+}
+body {
+    font-family: raleway;
+}
+header {
+    width: 100%;
+    position: fixed; top: 0;
+    padding: 16px 16px 8px;
+    height: 26px;
+    background: white;
+}
+.logo {
+    font-family: raleway;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: black;
+    font-size: 25px;
+}
+.inline-block {
+    display: inline-block;
+}
+nav {
+    float: right; margin-right: 28px;
+    font-size: 17px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    font-family: raleway;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.content {
+    padding-top: 26px;
+}
+.heroImg {
+    background: #a0a0f5;
+    height: 500px;
+    font-family: raleway;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.heroImg h1 {
+    font-size: 50px; 
+    font-weight: normal;
+    margin: 0; 
+}
+.heroImg h2 {
+    font-size: 20px;
+    font-weight: normal; 
+    margin-bottom: 0;
+}
+.project-row {
+    display: flex;
+
+}
+.project-mock {
+    display: flex;
+    background-color: lightgrey;
+    margin-top: 87px;
+    padding: 15px;
+    height: 700px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.project1-info {
+    display: flex;
+    margin-top: 87px;
+    margin-left: 50px;
+    height: 370px;
+    background-color: #D97978;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project1-info a {
+    height: 370px;
+    width: 370px;
+    padding: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+.project1-again {
+    display: flex;
+    background-color: lightgrey;
+    height: 700px;
+    flex: 1;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    border-top: 1px solid lightgrey;
+    margin-top: 50px;
+    padding-top: 6px;
+}
+footer img {
+    height: 30px;
+}
+footer a:hover {
+    opacity: .8;
+}
