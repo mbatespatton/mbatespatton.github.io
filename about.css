@@ -1,0 +1,30 @@
+body {
+    font-family: raleway;
+}
+
+h1 {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 40px;
+    color: black;
+}
+h2 {
+    font-size: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+p {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.me {
+    width: 300px;
+    height: 300px;
+    margin-right: 16px;
+    float: right;
+    margin-left: 9px;
+}
+.linked {
+    text-decoration: underline;
+}
